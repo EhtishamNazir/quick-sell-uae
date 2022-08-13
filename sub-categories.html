@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quick Sell - Sub Categories</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Header Starts -->
+<header class="header">
+	<div class="navbar">
+		<div class="container">
+			<div class="logo">
+				<a href="#"><img src="img/logo.png" alt="Logo"></a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="#home">home</a></li>
+					<li><a href="#how-works">how it works?</a></li>
+					<li><a href="#why">why quicksell</a></li>
+					<li><a href="#faq">FAQ's</a></li>
+					<li><a href="#testimonial">testimonials</a></li>
+				</ul>
+			</div>
+			<div class="cart-toggle">
+				<div class="cart">
+					<a href="cart.html">
+						<img src="img/cart.png" alt="Cart Icon" /> <span>1</span>
+					</a>
+				</div>
+				<div class="toggle">
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</header>
+<!-- Header Ends -->
+
+<!-- Mobile Navigation Starts -->
+<!-- Mobile Navigation Starts -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="heading">Navigation</div>
+  <div class="overlay-content">
+    <a href="index.html#home">Home</a>
+    <a href="index.html#how-works">How it works?</a>
+    <a href="index.html#why">why Quicksell?</a>
+    <a href="index.html#faq">FAQ's</a>
+    <a href="index.html#testimonial">Testimonials</a>
+  </div>
+</div>
+<!-- Mobile Navigation Ends -->
+<!-- Mobile Navigation Ends -->
+
+<!-- Sub Categories Starts -->
+<div class="sub-categories">
+	<div class="tab">
+	   <button class="tablinks" onclick="showCategory(event, 'Car')">Cars</button>
+	  <button class="tablinks active" onclick="showCategory(event, 'furniture')">Furniture</button>
+	  <button class="tablinks" onclick="showCategory(event, 'appliances')">Appliances</button>
+	  <button class="tablinks" onclick="showCategory(event, 'phone')">Mobile Phone</button>
+	  <button class="tablinks" onclick="showCategory(event, 'tablet')">Tablet</button>
+	  <button class="tablinks" onclick="showCategory(event, 'laptop')">Laptop</button>
+	  <button class="tablinks" onclick="showCategory(event, 'watch')">Smart Watch</button>
+	  <button class="tablinks" onclick="showCategory(event, 'game')">Game Console</button>
+	  <button class="tablinks" onclick="showCategory(event, 'items')">Bulk Items</button>
+	</div>
+
+	<div id="furniture" class="tabcontent" style="display: block;">
+  	<div class="tabcontent-heading"><p>Furniture</p></div>
+  	<div class="tabcontent-items">
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-sofa.png" alt="Sofa" />
+				</div>
+				<div class="name">
+					<p>Sofa</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-dining set.png" alt="Dinning" />
+				</div>
+				<div class="name">
+					<p>Dinning set</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-cabinet.png" alt="TV Console" />
+				</div>
+				<div class="name">
+					<p>TV console</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-table.png" alt="Cofee Table" />
+				</div>
+				<div class="name">
+					<p>Coffee table</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-cupboard.png" alt="Cupboard" />
+				</div>
+				<div class="name">
+					<p>Cupboard</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-dressing table.png" alt="Dressing" />
+				</div>
+				<div class="name">
+					<p>Dressing</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-bedset.png" alt="Bed Set" />
+				</div>
+				<div class="name">
+					<p>Bed set</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-decoration.png" alt="Decoration" />
+				</div>
+				<div class="name">
+					<p>Decoration</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/furniture-curtain.png" alt="Curtains" />
+				</div>
+				<div class="name">
+					<p>Curtains</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+
+	<div id="appliances" class="tabcontent">
+		<div class="tabcontent-heading"><p>Appliances</p></div>
+  	<div class="tabcontent-items">
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/tv.png" alt="TV" />
+				</div>
+				<div class="name">
+					<p>TV</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/fridge.png" alt="Fridge" />
+				</div>
+				<div class="name">
+					<p>Fridge</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/washing.png" alt="Washing Machine" />
+				</div>
+				<div class="name">
+					<p>Washing machine</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/cooking.png" alt="Cooking Range" />
+				</div>
+				<div class="name">
+					<p>Cooking range</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/oven.png" alt="Oven" />
+				</div>
+				<div class="name">
+					<p>Oven</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/washer.png" alt="Dish Washer" />
+				</div>
+				<div class="name">
+					<p>Dish washer</p>
+				</div>
+  		</a>
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/fan.png" alt="Fan" />
+				</div>
+				<div class="name">
+					<p>Fans</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+
+	<div id="phone" class="tabcontent">
+	  <div class="tabcontent-heading"><p>Mobile Phone</p></div>
+  	<div class="tabcontent-items">		  		
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/dummy.png" alt="Dummy Image" />
+				</div>
+				<div class="name">
+					<p>Dummy</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+
+	<div id="tablet" class="tabcontent">
+	  <div class="tabcontent-heading"><p>Tablet</p></div>
+  	<div class="tabcontent-items">		  		
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/dummy.png" alt="Dummy Image" />
+				</div>
+				<div class="name">
+					<p>Dummy</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+
+	<div id="laptop" class="tabcontent">
+	  <div class="tabcontent-heading"><p>Laptop</p></div>
+  	<div class="tabcontent-items">		  		
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/dummy.png" alt="Dummy Image" />
+				</div>
+				<div class="name">
+					<p>Dummy</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+
+	<div id="watch" class="tabcontent">
+	  <div class="tabcontent-heading"><p>Smart Watches</p></div>
+  	<div class="tabcontent-items">		  		
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/dummy.png" alt="Dummy Image" />
+				</div>
+				<div class="name">
+					<p>Dummy</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+
+	<div id="game" class="tabcontent">
+	  <div class="tabcontent-heading"><p>Game Console</p></div>
+  	<div class="tabcontent-items">		  		
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/dummy.png" alt="Dummy Image" />
+				</div>
+				<div class="name">
+					<p>Dummy</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+
+	<div id="items" class="tabcontent">
+	  <div class="tabcontent-heading"><p>Bulk Items</p></div>
+  	<div class="tabcontent-items">		  		
+  		<a href="add-details.html" class="tabcontent-item">
+				<div class="img">
+					<img src="img/dummy.png" alt="Dummy Image" />
+				</div>
+				<div class="name">
+					<p>Dummy</p>
+				</div>
+  		</a>
+  	</div>
+	</div>
+</div>
+<!-- Sub Categories Ends -->
+
+<!-- Footer Starts -->
+<footer class="footer">
+	<div class="container">
+		<div class="about-links">
+			<div class="about">
+				<div class="logo">
+					<img src="img/footer-logo.png" alt="Logo" />
+				</div>
+				<div class="desc">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada non commodo aliquet orci orci, ultrices. Adipiscing turpis nulla mauris in in massa. Quam nulla pellentesque lacus neque, eros, risus sapien, nibh. Volutpat eu, pharetra posuere nulla. Mattis aliquet.</p>
+				</div>
+			</div>
+			<div class="links">
+				<div class="links-item">
+					<div class="links-item-heading">
+						<p>navigation</p>
+					</div>
+					<div class="links-item-links">
+						<ul>
+							<li><a href="#">home</a></li>
+							<li><a href="#">how to sell</a></li>
+							<li><a href="#">why quicksell.ae</a></li>
+							<li><a href="#">tetimonials</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="links-item">
+					<div class="links-item-heading">
+						<p>terms of use</p>
+					</div>
+					<div class="links-item-links">
+						<ul>
+							<li><a href="#">terms & conditions</a></li>
+							<li><a href="#">privacy policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="links-item">
+					<div class="links-item-heading">
+						<p>social media links</p>
+					</div>
+					<div class="links-item-links">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="img/facebook.png" alt="Facebook Icon" />
+								</a>
+								<a href="#">
+									<img src="img/instagram.png" alt="Instagram Icon" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Footer Ends -->
+
+<!-- Copyright Starts -->
+<div class="copyright">
+	<div class="container">
+		<p>All Rights Reserved by <a href="#">Quicksell.ae</a></p>
+		<p>2022</p>
+	</div>
+</div>
+<!-- Copyright Ends -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.width = "0%";
+		}
+	</script>
+	<script>
+		function showCategory(evt, categoryName) {
+		  var i, tabcontent, tablinks;
+
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+
+		  document.getElementById(categoryName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+	</script>
+</body>
+</html>

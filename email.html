@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Sell Email Template</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		.wrapper{
+			width: 70%;
+			margin: auto;
+		}
+		.logo{
+			width: 100%;
+			padding: 30px 0;
+			border-bottom: 2px solid #E4E4E4;
+		}
+		.logo .logo-img{
+			text-align: center;
+		}
+		.quotation{
+			width: 100%;
+			padding: 30px 20px;
+			border-bottom: 2px solid #E4E4E4;
+		}
+		.quotation .heading p{
+			font-family: 'Signika', sans-serif;
+			font-size: 30px;
+			color: #363A57;
+			font-weight: 700;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		.quotation .desc p{
+			font-family: 'Signika', sans-serif;
+			font-size: 14px;
+			color: #363A57;
+			font-weight: 400;
+			text-align: center;
+		}
+		.info{
+			display: flex;
+			flex-wrap: wrap;
+			border-bottom: 2px solid #E4E4E4;
+		}
+		.info .info-item{
+			width: 50%;
+			padding: 30px 70px;
+			border-right: 2px solid #E4E4E4;
+		}
+		.info .info-item:last-child{
+			border-right: none;
+		}
+		.info .info-item .heading{
+			font-family: 'Signika', sans-serif;
+			font-size: 16px;
+			font-weight: 700;
+			color: #363A57;
+			margin-bottom: 10px;
+		}
+		.info .info-item .desc{
+			font-family: 'Signika', sans-serif;
+			font-size: 16px;
+			color: #363A57;
+			font-weight: 400;
+		}
+		table{
+			width: 100%;
+			border-collapse: collapse;
+		}
+		table tr th{
+			font-family: 'Signika', sans-serif;
+			text-align: left;
+			padding: 10px 20px;
+			background: #F5F5F5;
+			font-size: 18px;
+			color: #303030;
+			font-weight: 400;
+			border-bottom: 1px solid #E6E6E6;
+		}
+		table tr th:last-child{
+			text-align: right;
+		}
+		table tr th span{
+			font-weight: 700;
+			margin-left: 5px;
+		}
+		table tr td{
+			font-family: 'Signika', sans-serif;
+			padding: 10px;
+			border-bottom: 2px solid #F2F2F2;
+		}
+		table tr td .img-text {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+		table tr td .img-text .text{
+			margin-left: 10px;
+		}
+		table tr td .img-text .text .name{
+			font-family: 'Signika', sans-serif;
+			font-size: 16px;
+			font-weight: 400;
+			color: #000000;
+		}
+		table tr td .img-text .text .name span{
+			font-weight: 300;
+			color: #585858;
+		}
+		table tr td .img-text .text .price{
+			font-family: 'Signika', sans-serif;
+			font-size: 14px;
+			color: #585858;
+			font-weight: 400;
+		}
+		table tr td .img-text .text .price span{
+			margin-left: 10px;
+		}
+		table tr td .offer-price{
+			font-family: 'Signika', sans-serif;
+			font-size: 16px;
+			color: #000000;
+			font-weight: 600;
+			text-align: right;
+		}
+		.sub-total{
+			font-family: 'Signika', sans-serif;
+			background-color: #521378;
+			color: #ffffff;
+			font-weight: 600;
+			font-size: 20px;
+			text-align: center;
+			padding: 10px 0;
+			margin-top: 10px;
+		}
+		.footer{
+			width: 100%;
+			padding: 30px;
+		}
+		.footer .heading{
+			font-family: 'Signika', sans-serif;
+			font-size: 18px;
+			color: #521378;
+			text-align: center;
+			font-weight: 600;
+		}
+		.copyright{
+			font-family: 'Signika', sans-serif;
+			width: 100%;
+			padding: 30px;
+		}
+		.copyright p{
+			font-size: 16px;
+			color: #979DAD;
+			font-weight: 400;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.copyright p a{
+			text-decoration: none;
+			color: #979DAD;
+		}
+		.copyright .visit-link a{
+			color: #653184;
+		}
+		.copyright .social-links{
+			text-align: center;
+			margin-top: 40px;
+		}
+		.copyright .social-links a{
+			padding: 10px;
+		}
+		.copyright .social-links a .fa{
+			font-size: 24px;
+			color: #979DAD;
+		}
+
+		@media (max-width: 768px) {
+			.info .info-item{
+				padding: 20px;
+				text-align: center;
+			}
+			table tr td .img-text{
+				align-items: flex-start;
+				flex-direction: column;
+			}
+			table tr td .img-text .text{
+				margin-top: 10px;
+				margin-left: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="logo">
+		<div class="logo-img">
+			<img src="img/footer-logo.png" alt="Logo" />
+		</div>
+	</div>
+
+	<div class="quotation">
+		<div class="heading">
+			<p>Your Quotation is here</p>
+		</div>
+		<div class="desc">
+			<p>We have made an amazing offer with the best profits you can get anywhere else.</p>
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="info-item">
+			<div class="heading">Customer information</div>
+			<div class="desc">John Doe</div>
+			<div class="desc">+971 55 xxxxxxx</div>
+		</div>
+		<div class="info-item">
+			<div class="heading">Pickup address</div>
+			<div class="desc">Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.</div>
+		</div>
+	</div>
+
+	<table>
+		<tr>
+			<th>Total Items <span>6</span></th>
+			<th>Our offering</th>
+		</tr>
+		<tr>
+			<td>
+				<div class="img-text">
+					<div class="img">
+						<img src="img/sofa-1.png" alt="Sofa" />
+					</div>
+					<div class="text">
+						<p class="name">Sofa <span>(Brand name)</span></p>
+						<p class="price">Your asking price: <span>125 AED</span></p>
+					</div>
+				</div>
+			</td>
+			<td>
+				<p class="offer-price">120 AED</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="img-text">
+					<div class="img">
+						<img src="img/sofa-1.png" alt="Sofa" />
+					</div>
+					<div class="text">
+						<p class="name">Sofa <span>(Brand name)</span></p>
+						<p class="price">Your asking price: <span>125 AED</span></p>
+					</div>
+				</div>
+			</td>
+			<td>
+				<p class="offer-price">120 AED</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="img-text">
+					<div class="img">
+						<img src="img/sofa-1.png" alt="Sofa" />
+					</div>
+					<div class="text">
+						<p class="name">Sofa <span>(Brand name)</span></p>
+						<p class="price">Your asking price: <span>125 AED</span></p>
+					</div>
+				</div>
+			</td>
+			<td>
+				<p class="offer-price">120 AED</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="img-text">
+					<div class="img">
+						<img src="img/sofa-1.png" alt="Sofa" />
+					</div>
+					<div class="text">
+						<p class="name">Sofa <span>(Brand name)</span></p>
+						<p class="price">Your asking price: <span>125 AED</span></p>
+					</div>
+				</div>
+			</td>
+			<td>
+				<p class="offer-price">120 AED</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="img-text">
+					<div class="img">
+						<img src="img/sofa-1.png" alt="Sofa" />
+					</div>
+					<div class="text">
+						<p class="name">Sofa <span>(Brand name)</span></p>
+						<p class="price">Your asking price: <span>125 AED</span></p>
+					</div>
+				</div>
+			</td>
+			<td>
+				<p class="offer-price">120 AED</p>
+			</td>
+		</tr>
+	</table>
+
+	<div class="sub-total">Sub Total &nbsp;&nbsp;&nbsp; 120 AED</div>
+
+	<div class="footer">
+		<div class="heading">Accept quotation and our representative will contact you as per your convenience</div>
+	</div>
+
+	<div class="copyright">
+		<p>© Quicksell.ae All rights reserved.</p>
+		<p>If you have any questions please contact us <a href="#">queries@quicksell.ae</a></p>
+		<p class="visit-link"><a href="#">Visit website</a><p>
+		<div class="social-links">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
